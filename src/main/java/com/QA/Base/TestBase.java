@@ -46,7 +46,7 @@ public class TestBase {
 			driver = new ChromeDriver();
 		}
 		else if(browsername.equals("firefox")) {
-			 driver = new FirefoxDriver();
+			// driver = new FirefoxDriver();
 		}
 		else if(browsername.equals("edge")) {
 			 driver = new EdgeDriver();
